@@ -4,10 +4,15 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Contact Page</title>
 
     </head>
     <body >
-        <h1 >Welcome to the site</h1>
+        <nav>
+            <a href="/">home</a>
+            <a href="/about">about</a>
+            <a href="/contact">contact</a>
+        </nav>
+        {{$slot}}
     </body>
 </html>
